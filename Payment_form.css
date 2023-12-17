@@ -1,0 +1,47 @@
+div:not(#pa){
+    background-color: rgb(212, 230, 244);
+    padding: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 4px;
+    border: 2px solid rgb(183, 220, 228);
+    border-radius: 8px;
+    
+}
+
+h1{
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    padding: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 0px;
+    border-radius: 8px;
+}
+
+
+input:not([type="submit"]),textarea,select{
+    border-radius: 6px;
+}
+#address{
+    margin: -2.4% 2% 0% 4.8% ;
+    width: 75%;
+    
+}
+#pay{
+    background-color: rgb(7, 190, 89);
+    color: white;
+    padding: 10px;
+    width: 20%;
+    justify-self: center;
+    font-size: 1em;
+    border-radius: 15px;
+    /* margin: 0rem 35rem 0rem 35rem; */
+    
+    
+}
+#pay:hover{
+    font-size: 2em;
+    cursor: pointer;
+}
